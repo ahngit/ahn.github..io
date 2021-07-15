@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./random.css">
+    <script src="./random_color.js"></script>
+    
+    <title>Random</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            box-sizing: border-box;
+        }
+        #area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            flex-direction: column;
+            box-sizing: border-box;
+            /* padding: 2em; */
+        }
+        .rd{
+            height: 1.2em;
+            width: 13em;
+            margin: 2em;
+            text-align: center;
+            padding: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" class="setRandomBorderColor"">
+
+        <div class="setRandomTextColor rd">class="setRandomTextColor"</div>
+        <div class="setRandomBorderColor rd" >class="setRandomBorderColor"</div>
+        <div class="setRandomTextShadow rd" >class="setRandomTextShadow"</div>
+        <div class="setRandomBoxShadow rd">class="setRandomBoxShadow"</div>
+        <div class="setRandomBgColor rd">class="setRandomBgColor"</div>
+    
+    </div>
+</body>
+</html>
